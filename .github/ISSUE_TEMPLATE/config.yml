@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Devgraft Wiki
+    url: https://github.com/dev-graft/docs/wiki
+    about: Check our shared documentation and guides here.
+  - name: 🙋 Q&A Discussion
+    url: https://github.com/Devgraft/discussions
+    about: Please use Discussions for questions instead of creating an issue.

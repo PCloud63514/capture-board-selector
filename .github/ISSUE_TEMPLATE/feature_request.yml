@@ -1,0 +1,25 @@
+name: "Feature Request"
+description: Suggest a new feature or improvement
+title: "[Feat]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an idea! Please provide the details below.
+  - type: textarea
+    id: task
+    attributes:
+      label: Task Statement
+      description: What task are you trying to solve?
+      placeholder: Using the app at night causes eye strain
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe your proposed solution.
+      placeholder: Add a dark mode toggle in settings
+    validations:
+      required: false
